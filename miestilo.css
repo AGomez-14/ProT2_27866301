@@ -1,0 +1,166 @@
+/*
+body{
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.parrafo1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.texto-info {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+*/
+header {
+    background-color: #69bd45;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    header h1{ 
+        font-size: 36px;
+        margin: 0;
+    }
+
+    header h3{
+        font-size: 18px;
+        margin: 5px 0 20px 0
+    }
+
+    header nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+        padding: 8px 16px;
+        border-radius: 5px;
+    }
+
+    
+    nav{
+        background-color: #4caf50;
+        padding: 10px;
+        }
+    
+    nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        }
+
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+        }
+    
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    nav ul li a:hover{
+        background-color: #2f8247;
+        text-decoration: underline;
+    }
+
+   /*
+    section {
+    padding: 20px; --espaciado para la sección de 20 pixeles--
+    }
+    */
+
+
+
+
+
+footer {
+        background-color: #4caf50; /*color de fondo del footer*/
+        color: #fff;
+        padding: 20px 0;
+        }
+
+.footer-content {
+        max-width: 800px; /*ancho maximo del contenido del footer*/
+        margin: 0 auto; /*centrar el contenido del footer horizontalmente*/
+        text-align: center;
+        color: #fff;
+    
+}
+.social-icons{
+    display: inline-block;
+    
+}
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+    color: #2f8247;
+    
+}
+
+.imagen-header {
+    display: block; /*para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0; /*centrar las imagenes horizontalmente*/
+    max-width: 100px; /*asegurar que las imagenes no excedan el ancho del contenedor. */
+    border: 3px solid #69bd45; /*contorno en 3px con color verde (#69bd45) alrededor de la imagen*/
+    border-radius: 10px; /*borde redondeado de 10px para suavisar el contorno*/
+}
+
+ 
+   /* Carousel Styles */
+.carousel-inner  {
+    height: 60vh; /* Set height for carousel images */
+    object-fit: cover;
+    width: 50;
+    height: auto;
+    border: 3px solid #69bd45; /*contorno en 3px con color verde (#69bd45) alrededor de la imagen*/
+    border-radius: 10px; /*borde redondeado de 10px para suavisar el contorno*/
+    object-position: center;
+
+}
+
+.carousel-indicators li {
+    background-color: #009107; /* Yellow indicators */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #03b81b; /* Blue control icons */
+    border-radius: 50%; /* Rounded control icons */
+}
+
+.carousel-img {
+    width: 100%; /* Ajusta el ancho del contenedor del carrusel según sea necesario */
+    overflow: hidden; /* Para asegurarse de que el carrusel no muestre imágenes fuera de su área visible */
+}
+
+.parrafo1 {
+    font-family: arial, sans-serif;
+    text-align: justify;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.texto-info {
+    font-family: arial, sans-serif;
+    text-align: justify;
+    font-weight: normal;
+    
+}
